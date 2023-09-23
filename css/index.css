@@ -65,3 +65,17 @@ body {
   /* border:2px solid blue; */
   padding: 1rem;
 }
+
+.prescriptions-table{
+  background-color: white;
+  border-radius: 5%;
+}
+
+.btn-prescriptions{
+  width: 100%;
+  border: 2px dotted green;
+  background-color: white;
+  color: green;
+  font-weight: 800;
+  padding: 1rem;
+}
