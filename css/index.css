@@ -9,9 +9,9 @@ body {
   background-color: var(--primary);
 }
 
-.container-fluid {
+/* .container-fluid {
   border: 2px solid black;
-}
+} */
 .row {
   /* border: 2px solid red; */
   margin: 0.2rem;
@@ -95,7 +95,6 @@ body {
 }
 
 .side-bar{
-  border: 2px solid green;
   background-color: #0b596c;
   position: fixed;
   top: 0;
