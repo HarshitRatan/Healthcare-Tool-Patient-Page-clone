@@ -5,7 +5,7 @@
   --text-primary: #17171c;
   --text-secondary: #a3a8a9;
 }
-* {
+body {
   background-color: var(--primary);
 }
 
@@ -21,28 +21,37 @@
   height: 8rem;
   width: 8rem;
   border-radius: 20%;
-
 }
 
-.btn{
-    background-color: #45bc8ed5;
-    padding: 1rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    border-radius: 10%;
+.btn {
+  background-color: #45bc8ed5;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 10%;
 }
-.btn:hover{
+.btn:hover {
   background-color: var(--button);
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
   border-radius: 10%;
-
 }
 
-.card{
-    border: 2px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.image-card {
+  background-color: white;
+  border-radius: 5%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 5%;
 }
