@@ -200,7 +200,7 @@
           </div>
         </div>
         <!-- Main Content Bar -->
-        <div class="col-11" style="margin-left: 6rem">
+        <div class="col-11" style="margin-left: 6rem; margin-top: 2rem;">
           <div style="height: 600px">
             <!-- First Row -->
             <div class="row align-items-center">
@@ -303,12 +303,16 @@
               </div>
             </div>
             <!-- Second Row -->
-            <div class="row align-items-center">
-              <div class="col">Current Opportunities</div>
+            <div class="row align-items-center" style="margin-top: 2rem; margin-bottom: 2rem;">
+              <div class="col">
+                <div class="heading-1" style="font-size: 2.5rem;">
+                Current Appointment
+              </div>
+              </div>
             </div>
             <!-- Main Row -->
             <div class="row" style="height: 30rem">
-              <div class="col-4" style="height: 100%;">
+              <div class="col-4" style="height: 100%">
                 <div class="image-card">
                   <img
                     src="/Image/profile-photo.webp"
@@ -316,7 +320,7 @@
                     alt="..."
                   />
                   <div class="heading-1">Roger Curtis</div>
-                  <div class="heading-2">Age 26</div>
+                  <div class="heading-3">Age 26</div>
                   <a href="#" class="btn">Update</a>
                 </div>
                 <br />
@@ -398,9 +402,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-8" style="height: 100%;">
-                <div class="row">
-                  <div class="col-4">
+              <div class="col-8">
+                <div 
+                class="row" 
+                style="margin-bottom: 2rem;">
+                  <div class="col-4" >
                     <div class="image-card">
                       <img
                         src="/Image/heart-image.avif"
@@ -438,10 +444,10 @@
                   </div>
                 </div>
 
-                <div class="report-card">
+                <div class="report-card" style="margin-bottom: 2rem;">
                   <div class="row">
                     <div class="col">
-                      <div class="heading-1">Test Report :</div>
+                      <div class="heading-1" style="margin-top: 1rem;">Test Report :</div>
                     </div>
                   </div>
                   <div class="row">
@@ -501,8 +507,8 @@
                   </div>
                 </div>
 
-                <div class="prescriptions-table">
-                  <div class="row">
+                <div class="prescriptions-table" style="margin-bottom: 4rem;">
+                  <div class="row" style="margin-bottom: 1rem;">
                     <div class="col">
                       <div class="heading-1">Prescriptions</div>
                     </div>
@@ -513,6 +519,7 @@
                       display: flex;
                       align-items: center;
                       justify-content: center;
+                      margin-bottom: 1rem;
                     "
                   >
                     <div class="col">
@@ -525,15 +532,15 @@
                     <div class="col">
                       <table class="table">
                         <thead>
-                          <tr>
-                            <th scope="col">Prescriptions</th>
-                            <th scope="col">Date</th>
-                            <th scope="col">Duration</th>
+                          <tr style="padding: 1rem;">
+                            <th scope="col"><span class="heading-3">Prescriptions</span></th>
+                            <th scope="col"><span class="heading-3">Date</span></th>
+                            <th scope="col"><span class="heading-3">Duration</span></th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td style="padding: 1rem;">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -553,13 +560,15 @@
                                   d="M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"
                                 />
                               </svg>
-                              Heart Diseases
+                              <span class="heading-2">Heart Diseases</span>
                             </td>
-                            <td>25th October 2022</td>
-                            <td>3 Months</td>
+                            <td>
+                              <span class="heading-3">25th October 2022</span>
+                            </td>
+                            <td><span class="heading-3">3 Months</span></td>
                           </tr>
                           <tr>
-                            <td>
+                            <td style="padding: 1rem;">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -579,10 +588,10 @@
                                   d="M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"
                                 />
                               </svg>
-                              Skin Care
+                              <span class="heading-2">Skin Care</span>
                             </td>
-                            <td>8th August 2019</td>
-                            <td>2 Months</td>
+                            <td> <span class="heading-3">8th August 2019</span</td>
+                            <td> <span class="heading-3">2 Months</span</td>
                           </tr>
                         </tbody>
                       </table>

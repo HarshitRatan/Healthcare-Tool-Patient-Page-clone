@@ -1,7 +1,7 @@
 :root {
   --primary: #f4f7f8;
   --secondary: #0a596d;
-  --button: #45bc8f;
+  --button: #45bc8ed5;
   --text-primary: #17171c;
   --text-secondary: #a3a8a9;
 }
@@ -9,11 +9,7 @@ body {
   background-color: var(--primary);
 }
 
-/* .container-fluid {
-  border: 2px solid black;
-} */
 .row {
-  /* border: 2px solid red; */
   margin: 0.2rem;
 }
 
@@ -24,18 +20,26 @@ body {
 }
 
 .btn {
-  background-color: #45bc8ed5;
-  padding: 1rem;
-  font-size: 1.5rem;
-  font-weight: 600;
+  background-color: var(--button);
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-weight: 700;
   border-radius: 10%;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
 }
 .btn:hover {
-  background-color: var(--button);
-  padding: 1rem;
-  font-size: 1.5rem;
-  font-weight: 600;
+  background-color:var(--button);
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-weight: 700;
   border-radius: 10%;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
 }
 
 .image-card {
@@ -59,23 +63,28 @@ body {
 .report-card {
   background-color: white;
   border-radius: 5%;
+  padding-top: .8rem;
 }
 
 .test-report-card{
   /* border:2px solid blue; */
   padding: 1rem;
+  /* padding-top: 1.5rem; */
+
 }
 
 .prescriptions-table{
   background-color: white;
   border-radius: 5%;
+  padding-top: 1.5rem;
+
 }
 
 .btn-prescriptions{
   width: 100%;
-  border: 2px dotted green;
+  border: 2px dotted #45bc8ed5;
   background-color: white;
-  color: green;
+  color: #45bc8ed5;
   font-weight: 800;
   padding: 1rem;
 }
@@ -100,4 +109,25 @@ body {
   top: 0;
   left:0;
   height: 100%;
+}
+
+.heading-1{
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+}
+.heading-2{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+  color: rgba(0, 0, 0, 0.699);
+}
+.heading-3{
+  font-size: 1rem;
+  font-weight: 600;
+  color:#8e9494;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
 }
