@@ -21,25 +21,25 @@ body {
 
 .btn {
   background-color: var(--button);
-  padding-top: .8rem;
-  padding-bottom: .8rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   font-weight: 700;
   border-radius: 10%;
-  margin-top: .3rem;
-  margin-bottom: .3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 .btn:hover {
-  background-color:var(--button);
-  padding-top: .8rem;
-  padding-bottom: .8rem;
+  background-color: var(--button);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   font-weight: 700;
   border-radius: 10%;
-  margin-top: .3rem;
-  margin-bottom: .3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 .image-card {
@@ -58,29 +58,26 @@ body {
   justify-content: space-around;
   background-color: white;
   border-radius: 5%;
+  padding: 1rem;
 }
 
 .report-card {
   background-color: white;
   border-radius: 5%;
-  padding-top: .8rem;
+  padding-top: 0.8rem;
 }
 
-.test-report-card{
-  /* border:2px solid blue; */
+.test-report-card {
   padding: 1rem;
-  /* padding-top: 1.5rem; */
-
 }
 
-.prescriptions-table{
+.prescriptions-table {
   background-color: white;
   border-radius: 5%;
   padding-top: 1.5rem;
-
 }
 
-.btn-prescriptions{
+.btn-prescriptions {
   width: 100%;
   border: 2px dotted #45bc8ed5;
   background-color: white;
@@ -89,45 +86,45 @@ body {
   padding: 1rem;
 }
 
-.side-bar-main-icon{
+.side-bar-main-icon {
   margin-top: 2rem;
   height: 3rem;
   width: 3rem;
   color: #ebf4f3;
 }
 
-.side-bar-icon{
+.side-bar-icon {
   margin-top: 3rem;
   height: 2rem;
   width: 2rem;
   color: #ebf4f3;
 }
 
-.side-bar{
+.side-bar {
   background-color: #0b596c;
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   height: 100%;
 }
 
-.heading-1{
+.heading-1 {
   font-size: 1.5rem;
   font-weight: 800;
-  margin-top: .3rem;
-  margin-bottom: .3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
-.heading-2{
+.heading-2 {
   font-size: 1rem;
   font-weight: 700;
-  margin-top: .3rem;
-  margin-bottom: .3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
   color: rgba(0, 0, 0, 0.699);
 }
-.heading-3{
+.heading-3 {
   font-size: 1rem;
   font-weight: 600;
-  color:#8e9494;
-  margin-top: .3rem;
-  margin-bottom: .3rem;
+  color: #8e9494;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
